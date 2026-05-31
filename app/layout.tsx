@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "Entertainment Division Training",
-  description: "MainStreet RP training website",
+  description: "MainStreet RP Training",
 };
 
 export default function RootLayout({
@@ -11,7 +11,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="et">
+    <html lang="en">
       <body>{children}</body>
     </html>
   );
